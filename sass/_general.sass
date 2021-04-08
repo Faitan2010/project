@@ -1,0 +1,399 @@
+.container
+  max-width: 1140px
+
+.menu
+  display: flex
+  justify-content: space-between
+  padding-top: 18px
+  padding-bottom: 18px
+  margin: 0
+  list-style: none
+
+nav
+  background-color: #212121
+
+.menu_link
+  color: #ffffff
+  text-decoration: none
+  font-weight: 300
+  font-size: 15px
+
+.menu_item
+  border-right: 1px dashed black
+  padding-right: 45px
+
+  &:last-child
+    padding-right: 0
+    border-right: none
+
+.hamburger
+	display: none
+
+.hidden__xs_phone
+	display: none
+
+.main__info
+  background: url('../img/bg/uber_bg.jpg') center (center / cover) no-repeat
+
+.main__info_color
+  background-color: rgba(0, 0, 0, 0.6)
+  padding-top: 20px
+    
+
+.main__info_logo
+  max-width: 100%
+
+.main__info_signature
+  font-size: 13px
+  font-weight: 300
+  color: white
+  opacity: .5
+
+.main__info_ring
+  font-weight: 300
+  font-size: 12px
+  line-height: 14px
+  color: white
+  padding-bottom: 3px
+  margin-bottom: 0
+
+.main__info_number
+  font-size: 22px
+  color: white
+  padding-bottom: 20px
+
+.main__info_button
+  margin-left: 23px
+  font-size: 14px
+  height: 46px
+  background-color: #1EACC7
+  text-align: center
+  text-transform: uppercase
+  color: white
+  width: 162px
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
+  border-radius: 4px
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+  +btn_hover
+
+.main__info_text
+  text-align: center
+  margin: 0 auto
+
+.main__info_h1
+  	font-weight: 900
+  	font-size: 60px
+  	line-height: 0.8
+  	color: white
+  	padding-top: 50px
+  	padding-bottom: 16px
+  	max-width: 834px
+  	margin: 0 auto
+.main__info_h2
+	font-size: 36px
+	padding-top: 4px
+	padding-bottom: 16px
+	margin: 0 auto
+	max-width: 834px
+	color: white
+	text-align: center
+		
+
+.main__info_paragraf
+  font-size: 18px
+  line-height: 24px
+  color: white
+  max-width: 985px
+  text-align: center
+  margin: 0 auto
+  font-weight: 400
+
+.last__paragraf
+  padding-bottom: 116px
+  padding-top: 24px
+
+.main__info_send
+  font-size: 14px
+  height: 63px
+  background-color: #1EACC7
+  text-align: center
+  text-transform: uppercase
+  color: white
+  width: 211px
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
+  border-radius: 4px
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+  margin-bottom: 185px
+  @include btn_hover
+  
+
+.reasons
+  padding: 71px 0 65px 0
+
+.label
+  margin: 0 auto
+  height: 24px
+  width: 112px
+  padding: 5px 12px
+  background-color: #000000
+  color: #ffffff
+  font-size: 11px
+  font-weight: 300
+  text-transform: uppercase
+
+.title
+  margin-bottom: 0
+  margin-top: 32px
+  color: #222222
+  font-size: 38px
+  font-weight: 700
+  text-transform: uppercase
+  text-align: center
+
+.reasons_block
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-top: 35px
+
+.reasons_round
+	margin-right: 26px
+	width: 113px
+	height: 113px
+	background-color:#1eacc7
+	border-radius: 100%
+	flex-direction: column
+	display: flex
+	justify-content: center
+	align-items: center
+
+.reasons_descr
+    width: 343px
+
+    .reasons_subtitle
+      line-height: 21px
+      color: #1eacc7
+      font-size: 17px
+      font-weight: 400
+
+    .reasons_text
+      color: #202020
+      font-size: 15px
+      font-weight: 300
+      line-height: 21px
+.subtitle
+	font-size: 17px
+	text-align: center
+	font-weight: 400
+	margin-top: 19px
+
+.mobile
+	background: url('../img/bg/mobile_bg.png') center (center / cover) no-repeat
+	padding-top: 46px
+	padding-bottom: 79px
+	background-repeat: no-repeat
+	&__block
+		height: 280px
+		max-width: 320px
+		position: relative
+		margin: 20px 66px 0 0
+		&:last-child
+			padding-right: 0
+			margin: 0
+		&:nth-child(3)
+			padding-right: 0
+			margin: 0
+		&_1
+			background: url('../img/icon/card1.png') center (center / cover) no-repeat
+		&_2
+			background: url('../img/icon/card2.png') center (center / cover) no-repeat
+		&_3
+			background: url('../img/icon/card3.png') center (center / cover) no-repeat
+		&_4
+			background: url('../img/icon/card4.png') center (center / cover) no-repeat
+		&_5
+			background: url('../img/icon/card5.png') center (center / cover) no-repeat
+		&_6
+			background: url('../img/icon/card6.png') center (center / cover) no-repeat
+		&_subtitle
+			padding-top: 85px
+			color: white
+			font-size: 24px
+			text-align: center
+			text-transform: uppercase
+		&_plus
+			width: 29px
+			height: 29px
+			background-color: black
+			margin: 0 auto
+			text-align: center
+			border-radius: 100%
+			position: absolute
+			bottom: 35px
+			left: 50%
+			transform: translateX(-50%)
+			cursor: pointer
+				
+
+				
+
+.col-md-6
+	padding-bottom: 20px
+.mobile__subtitle
+	padding-bottom: 10px
+
+.capacity
+	background: url(../img/bg/black_bg.jpg) no-repeat
+	padding-top: 56px
+	padding-bottom: 138px
+	margin-bottom: 66px
+	.label
+		color: black
+		background-color: #fff
+	.title
+		color: white
+	.subtitle
+		color: white
+		font-size: 17px
+		text-align: center
+		font-weight: 300
+		padding-bottom: 54px
+.capacity__text
+	font-weight: 300
+	font-size: 17px
+	color: #222
+	text-align: center
+	max-width: 327px
+	margin: 0 auto
+.capacity img
+	display: block
+	margin: 0 auto
+
+.terms
+	padding-bottom: 89px
+	.title
+		padding-bottom: 37px
+	&__block
+		margin: 33px 0
+		&_nmb
+			margin-bottom: 0
+	&__title
+		font-size: 22px
+		padding-bottom: 20px
+		color: #1CA8C3
+		&_red
+			color: #FF5656
+	&__list
+		font-weight: 300
+		font-size: 17px
+		list-style-type: none
+		padding-left: 50px
+		li
+			padding-bottom: 10px
+			color: #222
+			&::before
+				content: ''
+				display: inline-block
+				vertical-align: middle
+				transform: translate(-5px, -2px)
+				width: 21px
+				height: 20px
+				background: url('../img/icon/check_blue.png') center (center / cover) no-repeat
+	&__description
+		font-weight: 300
+		font-size: 17px
+		color: #1CA8C3
+	.red
+		.terms__list
+			li
+				&::before
+					background: url('../img/icon/check_red.png') center (center / cover) no-repeat
+.map
+	background: url(../img/bg/black_map.png) center (center / cover) no-repeat
+	padding-top: 47px
+	padding-bottom: 38px
+	.label
+		text-align: center
+		background-color: #fff
+		color: black
+	.title
+		color:#FFFFFF
+	.subtitle
+		color:#FFFFFF
+		margin-top: 5px
+		padding-bottom: 457px
+	.map__link
+		font-size: 15px
+		text-align: center
+		text-transform: uppercase
+		color: #1FBAD6
+footer 
+	padding: 14px 23px 39px 23px
+	a 
+		&:hover 
+			text-decoration: none
+.footer
+	&_divider
+		width: 299px
+		height: 4px
+		background-color: #1fbad6
+		margin: 0 auto
+	&_wrapper
+		display: flex 
+		justify-content: space-between
+		align-items: flex-start
+		padding-top: 32px
+	&_wrapper > div 
+		width: 33%
+		&:nth-child(3)
+			display: flex 
+			justify-content: flex-end
+	&_social
+		width: 160px
+		display: flex
+		justify-content: space-between
+		&_item 
+			display: flex 
+			justify-content: center
+			align-items: center
+			margin: 0 4px 
+			width: 32px
+			height: 32px
+			background-color: #070716
+			border-radius: 100%
+			i 
+				color: #fff
+	&_links
+		width: 390px
+		margin: 0 auto
+		&_main 
+			display: flex 
+			justify-content: space-between
+			padding: 0 10px
+			a 
+				color: #070716
+				font-size: 15px
+				font-weight: 300
+				text-transform: uppercase
+		&_sub 
+			display: flex 
+			justify-content: space-between
+			margin-top: 10px
+			a 
+				color: #999999
+				font-size: 11px
+				font-weight: 300
+				text-transform: uppercase
+		&_lang 
+			display: block 
+			margin: 0 auto
+			color: #1fbad6
+			font-size: 11px
+			font-weight: 400
+			margin-top: 19px
+			text-transform: uppercase
+			text-align: center
+.xs-visible 
+	display: none
